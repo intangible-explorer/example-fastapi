@@ -2,11 +2,11 @@ from fastapi import Depends, HTTPException, status
 from sqlalchemy.orm import Session
 from jose import JWTError, jwt
 from datetime import datetime,timedelta
-from serializers import TokenDataSerializer
+from .serializers import TokenDataSerializer
 from fastapi.security import OAuth2PasswordBearer
-from database import get_db
-from models import User
-from config import settings
+from .database import get_db
+from .models import User
+from .config import settings
 
 oauth2_sceme = OAuth2PasswordBearer(tokenUrl='/auth/login')
 

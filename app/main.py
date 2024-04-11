@@ -1,10 +1,10 @@
 from fastapi import FastAPI
-from database import engine, Base
-from routers.post import post_router
-from routers.user import user_router
-from routers.auth import auth_router
-from routers.vote import vote_router
-from config import settings
+from .database import engine, Base
+from .routers.post import post_router
+from .routers.user import user_router
+from .routers.auth import auth_router
+from .routers.vote import vote_router
+from .config import settings
 
 from fastapi.middleware.cors import CORSMiddleware
 

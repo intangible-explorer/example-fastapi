@@ -1,9 +1,9 @@
 from fastapi import status, HTTPException, Response, Depends, APIRouter
 from sqlalchemy.orm import Session
-from models import User
-from serializers import *
-from database import get_db
-from utils import hash_password
+from ..models import User
+from ..serializers import *
+from ..database import get_db
+from ..utils import hash_password
 
 user_router = APIRouter(prefix='/users', tags=['Users'])
 
