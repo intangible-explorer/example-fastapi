@@ -18,7 +18,7 @@ def authenticate(user_credentials: OAuth2PasswordRequestForm = Depends(), db: Se
         raise HTTPException(detail=f"Invalid Creadentials." , status_code= status.HTTP_400_BAD_REQUEST)
 
     if not verify(user_credentials.password, user.password):
-        raise HTTPException(detail=f"Password do not match. Please provide correct password" , status_code= status.HTTP_400_BAD_REQUEST)
+        raise HTTPException(detail=f"Password do not match. Please provide correct password" , status_code= status.HTTP_401_UNAUTHORIZED)
 
     # create token
     access_token = create_access_token(data = {"user_id": user.id})

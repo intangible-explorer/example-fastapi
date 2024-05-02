@@ -15,7 +15,7 @@ def get_users(db: Session = Depends(get_db)):
 
 # Create User
 @user_router.post('/', status_code=status.HTTP_201_CREATED, response_model=RetrieveUserSerializer)
-def create_post(user: CreateUserSerializer, db: Session = Depends(get_db)):    
+def create_user(user: CreateUserSerializer, db: Session = Depends(get_db)):
     # hash the password
     hashed_password = hash_password(user.password)
     user.password = hashed_password

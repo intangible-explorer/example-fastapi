@@ -1,0 +1,22 @@
+FROM postgres:latest
+
+# Install dependencies required for running Alembic migrations
+RUN apt-get update && apt-get install -y \
+    python3 \
+    python3-pip \
+ && rm -rf /var/lib/apt/lists/*
+
+# Set up working directory
+WORKDIR /usr/src/app
+
+# Copy Alembic configuration file
+COPY alembic.ini .
+
+# Copy Alembic migration scripts (assuming they are in the 'alembic/versions' directory)
+COPY alembic/versions /usr/src/app/alembic/versions
+
+# Install Alembic and other Python dependencies
+# RUN pip3 install --no-cache-dir alembic sqlalchemy psycopg2-binary
+
+# Run Alembic migrations on container startup
+# CMD ["alembic", "upgrade", "head"]
