@@ -1,5 +1,6 @@
 import pytest
-from ..app.models import Vote
+# from ..app.models import Vote
+from app.models import Vote
 
 @pytest.fixture()
 def test_vote(test_posts, session, test_user):

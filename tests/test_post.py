@@ -1,6 +1,8 @@
 import pytest
 from typing import List
-from ..app.serializers import RetrievePostSerializer
+
+# from ..app.serializers import RetrievePostSerializer
+from app.serializers import RetrievePostSerializer
 
 def test_get_all_posts(authorized_client, test_posts):
     res = authorized_client.get("/posts/")

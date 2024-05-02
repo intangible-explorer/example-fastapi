@@ -1,8 +1,15 @@
 import pytest
 from jose import JWTError, jwt
-from ..app.serializers import RetrieveUserSerializer
-from ..app.serializers import TokenSerializer
-from ..app.config import settings
+
+# for local testing
+# from ..app.serializers import RetrieveUserSerializer
+# from ..app.serializers import TokenSerializer
+# from ..app.config import settings
+
+# for github actions testing
+from app.serializers import RetrieveUserSerializer
+from app.serializers import TokenSerializer
+from app.config import settings
 
 
 def test_root(client):

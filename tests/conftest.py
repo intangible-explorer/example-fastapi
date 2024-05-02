@@ -1,15 +1,23 @@
 import pytest
 from fastapi.testclient import TestClient
-from ..app.main import app
-from ..app.database import get_db, Base
-
-from ..app.config import settings
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
-from ..app.oauth2 import create_access_token
 
-from ..app.models import Post
+# for local testing
+# from ..app.main import app
+# from ..app.database import get_db, Base
+# from ..app.config import settings
+# from ..app.oauth2 import create_access_token
+# from ..app.models import Post
+
+# for github actions testing 
+from app.main import app
+from app.database import get_db, Base
+from app.config import settings
+from app.oauth2 import create_access_token
+from app.models import Post
+
 
 # SQLALCHEMY_DATABASE_URL = f"postgresql://{settings.DATABASE_USERNAME}:{settings.DATABASE_PASSWORD}@{settings.DATABASE_HOSTNAME}:{settings.DATABASE_PORT}/{settings.DATABASE_NAME}"
 SQLALCHEMY_DATABASE_URL = f"postgresql://postgres:admin@localhost:5432/fastapi_test"
