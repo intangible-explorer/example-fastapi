@@ -72,31 +72,7 @@ jobs:
         with:
           host: 13.201.225.129
           username: ubuntu
-          key: MIIEowIBAAKCAQEAga03Vo9kGPCfktUUtk06C2ArN7XTUs3ysRYFoUyKNLHfUyEu
-                yIfizE5KaTB2NxwUbE8TlL9ccpoLAF1dD9KX6TlcFYLgKIFjcU1U39Qa9Ed7W7Ol
-                8+5XewnX4Fn+8Rnm0R/XFV43p4JyjRvcGshMM5Ms/ZFRWrOScXjn4JWt3P3kaBuM
-                YrkxFJ2BzT/H/dr42GV0yHfZ9t+QMbY8I89pQ1r4tyaTOYPGFZqj3D1b3C54gRve
-                DDrp4KRmN/19bw64NTjGzkFbjizVqU3Y806cIyAn+XnGS5SDihppNPEQDA42+4OE
-                t1o8/dLKVMwmaToeb43Z8/C7YOpIne9iUjv+SwIDAQABAoIBAADvmBum00key3gK
-                06hxLD8SxZ0UUd8iH2NJzmaYn9K7ieoWrjjCSk/BLOZPdDr3l+okM/b53pfxJq0s
-                /1Py6CfFwzVgiW+hZ29U6IzpAfzLW0eRJ1x4VudLbeRvodhpoHHX8fx0fqBV36/H
-                CLKkyXAB2uxFlTm7XA43mizTx7p1lADszsF8JqcYlXSGQp103W3nswyH3gNV2BmB
-                80uQnXNv9zm78zytBB0OzJEsiqqdG6CE44j4O3p/JkzQvNCc2gt5PP+IAfQ2+yL3
-                IYOqieN+w4zrSBK+JbNmNpbmukw9iwV6KG+1YgCKhYsWXgbPHh/uN20JrhHjYo6+
-                oIm2RBkCgYEAyOzw1oRR3CJyAe6eBY5t2F3TX6y0QerZlou6wLCdmYCMSsrIalVr
-                6Dndz5QD6Cli8UDGvqYCiWqRhg4/R9cPBr19K0HAge1F+yOp56Vk+gXbsLFJkE0T
-                K1KWcarVBeMbAs88wXZ3vvyW6o7Plt4kRYMD+brttcJ0SzizIjAfElUCgYEApTiy
-                ux9mt1DBqXxIYbWGoFUoBul5sV/9nxK946C0x508uxM9s6W3GeT8Ww/gxvaSBy67
-                7SRRB9jHNsc4L3NgN4QHH7uWPI1z7GlaE4LslJC8l+1abkS+zeiLAk1SDfc+SuS8
-                y/w/MtDIAYqABFpMAX1nC2IWcqOggWJt4/D3rh8CgYAVzE7clwJihYIk34RZSfh0
-                zskNyijMNfRhNsuN+BtA+gc+Xf2cO6Q3T3/W81HxL/xB/CsTp+MCkYM0LfuDibth
-                mdEojjuaXOmIs3fNX84yqcwJwVIfy5zWyGD19/igaOEXTvBidL3NBI5C6DdxQKxi
-                tjIKN9NuMqh3OLGGdf4I+QKBgBgk3fF8WD1HntVOpSEqLr81UoEYE0F5Xo2lZnxi
-                Gqjk8GACIs0i1UwCa2I/QsCwfYxxJuMzoGe+JPZ7TFmayZ+zOntHpV+56AvPJWue
-                gUYAlJ66/7EHeL6MUewHMot56u9016YTeYTKf7/B5o08SMka8zj1n4QnJyhhIt/h
-                ccBPAoGBALg3CXyv9018RaJci6szvLcCM2+x/Y7LlZ8+fl5Zyk6HSQi+oG1jFtdo
-                ZIVTUv2hjd+oNvKzlXCgetOErBvv7AokelXbBzyerGBdnQ7iF0MP155HVvwipj+A
-                8oEjDMRcketYxt3Ov0Bdismt4PLnNdehcZiuiLoGmRz6DVNivasU
+          key: MIIEowIBAAKCAQEAga03Vo9kGPCfktUUtk06C2ArN7XTUs3ysRYFoUyKNLHfUyEuyIfizE5KaTB2NxwUbE8TlL9ccpoLAF1dD9KX6TlcFYLgKIFjcU1U39Qa9Ed7W7Ol8+5XewnX4Fn+8Rnm0R/XFV43p4JyjRvcGshMM5Ms/ZFRWrOScXjn4JWt3P3kaBuMYrkxFJ2BzT/H/dr42GV0yHfZ9t+QMbY8I89pQ1r4tyaTOYPGFZqj3D1b3C54gRveDDrp4KRmN/19bw64NTjGzkFbjizVqU3Y806cIyAn+XnGS5SDihppNPEQDA42+4OEt1o8/dLKVMwmaToeb43Z8/C7YOpIne9iUjv+SwIDAQABAoIBAADvmBum00key3gK06hxLD8SxZ0UUd8iH2NJzmaYn9K7ieoWrjjCSk/BLOZPdDr3l+okM/b53pfxJq0s/1Py6CfFwzVgiW+hZ29U6IzpAfzLW0eRJ1x4VudLbeRvodhpoHHX8fx0fqBV36/HCLKkyXAB2uxFlTm7XA43mizTx7p1lADszsF8JqcYlXSGQp103W3nswyH3gNV2BmB80uQnXNv9zm78zytBB0OzJEsiqqdG6CE44j4O3p/JkzQvNCc2gt5PP+IAfQ2+yL3IYOqieN+w4zrSBK+JbNmNpbmukw9iwV6KG+1YgCKhYsWXgbPHh/uN20JrhHjYo6+oIm2RBkCgYEAyOzw1oRR3CJyAe6eBY5t2F3TX6y0QerZlou6wLCdmYCMSsrIalVr6Dndz5QD6Cli8UDGvqYCiWqRhg4/R9cPBr19K0HAge1F+yOp56Vk+gXbsLFJkE0TK1KWcarVBeMbAs88wXZ3vvyW6o7Plt4kRYMD+brttcJ0SzizIjAfElUCgYEApTiyux9mt1DBqXxIYbWGoFUoBul5sV/9nxK946C0x508uxM9s6W3GeT8Ww/gxvaSBy677SRRB9jHNsc4L3NgN4QHH7uWPI1z7GlaE4LslJC8l+1abkS+zeiLAk1SDfc+SuS8y/w/MtDIAYqABFpMAX1nC2IWcqOggWJt4/D3rh8CgYAVzE7clwJihYIk34RZSfh0zskNyijMNfRhNsuN+BtA+gc+Xf2cO6Q3T3/W81HxL/xB/CsTp+MCkYM0LfuDibthmdEojjuaXOmIs3fNX84yqcwJwVIfy5zWyGD19/igaOEXTvBidL3NBI5C6DdxQKxitjIKN9NuMqh3OLGGdf4I+QKBgBgk3fF8WD1HntVOpSEqLr81UoEYE0F5Xo2lZnxiGqjk8GACIs0i1UwCa2I/QsCwfYxxJuMzoGe+JPZ7TFmayZ+zOntHpV+56AvPJWuegUYAlJ66/7EHeL6MUewHMot56u9016YTeYTKf7/B5o08SMka8zj1n4QnJyhhIt/hccBPAoGBALg3CXyv9018RaJci6szvLcCM2+x/Y7LlZ8+fl5Zyk6HSQi+oG1jFtdoZIVTUv2hjd+oNvKzlXCgetOErBvv7AokelXbBzyerGBdnQ7iF0MP155HVvwipj+A8oEjDMRcketYxt3Ov0Bdismt4PLnNdehcZiuiLoGmRz6DVNivasU
           script: |
             cd /app/src
             git pull
