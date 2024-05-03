@@ -30,7 +30,7 @@ app.add_middleware(
 
 @app.get('/')  # Change to @app.get() decorator
 async def hello():
-    return {"message": "hello world"}
+    return {"message": "hello world, deploying on ubuntu!"}
 
 
 app.include_router(post_router)
